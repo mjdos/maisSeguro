@@ -16,7 +16,7 @@
             @elseif($request->id == 5)
             <h2>Entrada AN</h2>
             @else
-            <h2>Entre em contato com o arquivo nacional </h2>
+            <h2>Entre em contato com o +Seguro </h2>
             @endif
 
 
@@ -42,7 +42,7 @@
                     COMUM
                 </div>
                 @else
-                <h2>Entre em contato com o arquivo nacional </h2>
+                <h2>Entre em contato com o +Seguro </h2>
                 @endif
 
 
@@ -78,7 +78,7 @@
             <img src="{{ url('assets/img/nft-5.png') }}" alt="Product">
             @else
             <img src="{{ url('assets/img/logo-ver.png') }}" alt="Product">
-            <h3>Entre em contato com o arquivo nacional </h3>
+            <h3>Entre em contato com o +Seguro </h3>
             @endif
         </div>
 
@@ -118,15 +118,15 @@
 
                                 @elseif($request->id == 4)
                                    <div class="title h6">Logo AN Verde</div>
-                                <p>O logo do Arquivo Nacional é uma representação visual marcante e simbólica da instituição. Com sua combinação única de elementos gráficos e cores, o logo transmite a importância histórica e a relevância cultural do Arquivo Nacional como guardião e preservador da memória nacional.</p>
+                                <p>O logo do +Seguro é uma representação visual marcante e simbólica da instituição. Com sua combinação única de elementos gráficos e cores, o logo transmite a importância histórica e a relevância cultural do +Seguro como guardião e preservador da memória nacional.</p>
 
                                 @elseif($request->id == 5)
                                    <div class="title h6">Entrada AN</div>
-                                <p>A entrada do Arquivo Nacional do Brasil é mais do que um simples portal físico para o edifício que abriga uma parte importante da história do país. É um marco que saúda os visitantes e os convida a adentrar um mundo de memórias, documentos e narrativas que ajudam a compor a história do Brasil</p>
+                                <p>A entrada do +Seguro do Brasil é mais do que um simples portal físico para o edifício que abriga uma parte importante da história do país. É um marco que saúda os visitantes e os convida a adentrar um mundo de memórias, documentos e narrativas que ajudam a compor a história do Brasil</p>
 
                                 @else
                                 
-                                <h3>Entre em contato com o arquivo nacional </h3>
+                                <h3>Entre em contato com o +Seguro </h3>
                                 @endif
                              
 

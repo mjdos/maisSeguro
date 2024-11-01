@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Arquivo Nacional</title>
+    <title>+Seguro</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,14 +44,14 @@
         <nav class="border-bottom nav-ds smart-sticky">
             <div class="navigation-wrapper container flex-space-between align-items-center">
                 <div class="nav-left-hand-part">
-                    <img src="{{ url('assets/img/logo-pequeno.png') }}" alt="logo" height="120" style="margin-right: 60px;">
+                    <img src="{{ url('assets/img/MJSP.png') }}" alt="logo" height="81" style="margin-right: 60px;">
 
                     <!--  navigation menu -->
                     <ul class="navigation-menu">
                         <li class="menu-item"><a class="menu-link" href="{{route('home')}}">Home</a></li>
-                        <li class="menu-item"><a class="menu-link" href="{{route('ranking')}}">Ranking</a></li>
-                        <li class="menu-item"><a class="menu-link" href="{{route('ntf.index')}}">Market Place</a></li>
-                        <li class="menu-item"><a class="menu-link" href="{{route('home_site.index')}}">Demandas</a></li>
+                        <li class="menu-item"><a class="menu-link" href="{{route('ranking')}}">Label</a></li>
+                        <li class="menu-item"><a class="menu-link" href="{{route('ntf.index')}}">Label</a></li>
+                        <li class="menu-item"><a class="menu-link" href="{{route('home_site.index')}}">Label</a></li>
                     </ul>
                     <!--  navigation menu -->
                 </div>

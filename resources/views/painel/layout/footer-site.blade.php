@@ -2,17 +2,37 @@
         @php
         $usuario = Session::get('usuario');
         @endphp
+        <style>
+            .logo {
+                display: flex;
+                align-items: center;
+            }
+
+            .logo-link {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+
+            .logo-text {
+                font-size: 31px;
+                font-weight: bold;
+                color: #333;
+            }
+
+        </style>
         <footer class="footer footer-margin">
             <div class="footer-wrapper container">
 
                 <div class="footer-content">
                     <div class="footer-row flex-space-between align-items-center">
                         <div class="logo">
-                            <a class="logo-link" href="01-home-ds.html">
-                                <div class="logo-img"><img src="{{ url('img/logo.png') }}" alt="logo"></div>
-                                <div class="logo-text">CriptoMeta</div>
+                            <a class="logo-link" href="01-home-ds.html" style="display: flex; align-items: center; text-decoration: none;">
+                                <img src="{{ url('assets/img/seguro-logo.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
+                                <div class="logo-text" style="font-size: 24px; font-weight: bold; color: #333;">+Seguro</div>
                             </a>
                         </div>
+
 
                     </div>
                     <br>
@@ -68,7 +88,7 @@
                 <!--  copyright section -->
                 <div class="footer-copyright flex-space-between">
                     <span class="copyright-text">
-                        CriptoMeta 2024 - Todos Direitos Reservados
+                        +Seguro 2024 - Todos Direitos Reservados
                     </span>
                 </div>
                 <!--  copyright section -->

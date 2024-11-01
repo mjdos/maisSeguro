@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Arquivo Nacional</title>
+    <title>+Seguro</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,44 +26,84 @@
     <link rel="stylesheet" href="{{ url('assets/css/login-register.css')}}">
 
     <meta name="theme-color" content="#fafafa">
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+        .feature {
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+            width: 280px;
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 2.5em;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        .feature-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    </style>
 </head>
 
-
+@include('painel.layout.header-site')
 <div align="center">
-<img src="{{ url('assets/img/logo-grande.png') }}" height="190">
+    <br>
+<img src="{{ url('assets/img/MJSP.png') }}" height="190">
 </div>
 <br>
 
 <div class="container">
-
-    <div class="user-stats-section" style="justify-content: center !important;">
-        <a href="{{ route('login_site') }}">
-            <div class="stat-item blue-gradient-diagonal" style="width: 400px; margin-right:20px">
-                <div class="stat-icon"><svg class="crumina-icon">
-                        <use xlink:href="#face-id-icon"></use>
-                    </svg></div>
-                <div class="stat-info">
-                    <div class="stat-number">Desafio Conexão Cidadã</div>
-                    <div class="stat-description">Ajude a moldar o futuro da documentação do Arquivo Nacional, participe e ganhe NFT exclusivos como recompensa.
-
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="{{ route('ntf.index') }}">
-            <div class="stat-item blue-gradient-diagonal" style="width: 400px;">
-                <div class="stat-icon"><svg class="crumina-icon">
-                        <use xlink:href="#dollar-icon"></use>
-                    </svg></div>
-                <div class="stat-info">
-                    <div class="stat-number">Marketplace Arquivo Nacional</div>
-                    <div class="stat-description">Explore o nosso Marketplace de NFT, repleto de itens e coleções exclusivas, Compre, Troque e Venda.
-
-                    </div>
-                </div>
-            </div>
-        </a>
+    <!-- Hero Section -->
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
+            <div class="feature-title">Proteção de Identidade</div>
+            <p>Mantenha sua identidade segura ao enviar informações confidenciais para a polícia.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-camera"></i></div>
+            <div class="feature-title">Envio de Mídias</div>
+            <p>Envie fotos e vídeos diretamente para ajudar nas investigações, sem complicações.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-sync"></i></div>
+            <div class="feature-title">Atualizações em Tempo Real</div>
+            <p>Receba feedback sobre o status da investigação e atualizações em tempo real.</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="feature-title">Segurança e Confiabilidade</div>
+            <p>Plataforma confiável com criptografia de ponta-a-ponta para proteger seus dados.</p>
+        </div>
     </div>
+
+  
+  
 </div>
 <br>
 <div align="center">
