@@ -61,9 +61,8 @@ class SiteController extends Controller
     }
 
     public function home(){
-        return view('home');
+        return view('painel.manager.gestao');
     }
-
     public function ranking(){
         
         return view('ranking');
@@ -72,4 +71,18 @@ class SiteController extends Controller
         
         return view('categorizar');
     }
+    public function principal(){
+        
+        return view('painel.manager.principal');
+    }
+
+    public function emergencia(){
+        
+        return view('painel.manager.emergencia');
+    }
+    public function perfil(){
+        
+        return view('painel.manager.perfil');
+    }
+    
 }

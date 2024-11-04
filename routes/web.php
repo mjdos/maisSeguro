@@ -21,12 +21,12 @@ Route::get('/nft/show/{id?}', [ProductController::class, 'show'])->name('ntf.sho
 Route::get('/login_internauta', [SiteController::class, 'login'])->name('login_site');
 Route::post('/logar', [SiteController::class, 'store'])->name('logar');
 
-
-
-
+Route::get('/principal', [SiteController::class, 'principal'])->name('principal');
+Route::get('/emergencia', [SiteController::class, 'emergencia'])->name('emergencia');
+Route::get('/perfil', [SiteController::class, 'perfil'])->name('perfil');
 Route::middleware('auth')->group(function () {
 
-    Route::get('/home_site', [SiteController::class, 'home'])->name('home_site.index');
+    Route::get('/home-site', [SiteController::class, 'home'])->name('home_site.index');
     Route::get('/logout_site', [SiteController::class, 'logout_site'])->name('logout_site');
 
     Route::get('/ranking', [SiteController::class, 'ranking'])->name('ranking');

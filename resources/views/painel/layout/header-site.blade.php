@@ -57,68 +57,7 @@
                 </div>
                 <div class="nav-right-hand-part">
                     <!-- user activity buttons -->
-                    <div class="user-activity-buttons">
-           
-                        <!-- user mobile search button -->
-                        <!--  notifications dropdown -->
-                        <div class="notifications-button-cont">
-                        <button class="notifications-button cryptoki-notif-bttn" data-target="notifications-dropdown">
-                            <span class="counter">3</span>
-                            <svg class="crumina-icon">
-                                <use xlink:href="#bell-icon"></use>
-                            </svg>
-                        </button>
-                            <div id="notifications-dropdown" class="cryptoki-notif-target">
-                                <div class="title">
-                                    Notificação <span class="colored">3</span>
-                                </div>
-                                <div class="notifications-wrapper cryptoki-scrollbar">
-                                    <div class="notification">
-                                        <div class="thumb-box"><img src="img/content/notifications/notif-thumb-1.png" alt="">
-                                            <span class="bid-type">
-                                                <svg class="crumina-icon"><use xlink:href="#annotation-icon"></use>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="notification-info">
-                                            <div class="message"><a href="06-profile-page.html" class="bold">@joao</a> Ultrapassou você
-                                                <a href="05-product.html" class="bold">Agora voçê esta em segundo lugar</a>
-                                            </div>
-                                            <div class="publish-date">2 minutos atrás</div>
-                                        </div>
-                                    </div>
-                                    <div class="notification">
-                                        <div class="thumb-box"><img src="img/content/notifications/notif-thumb-1.png" alt=""><span class="purchase-type">
-                                            <svg class="crumina-icon"><use xlink:href="#wallet-icon"></use>
-                                            </svg></span>
-                                        </div>
-                                        <div class="notification-info">
-                                            <div class="message"><a href="06-profile-page.html" class="bold">@CrimsonRay</a>Está se aproximando
-                                                <a href="05-product.html" class="bold">Está apenas a 10 demandas atrás de voçê</a>
-                                            </div>
-                                            <div class="publish-date">10 minutos atrás</div>
-                                        </div>
-                                    </div>
-                                    <div class="notification">
-                                        <div class="thumb-box"><img src="img/content/notifications/notif-thumb-2.png" alt="">
-                                            <span class="like-type">
-                                                <svg class="crumina-icon"><use xlink:href="#heart-icon"></use>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                        <div class="notification-info">
-                                            <div class="message"><a href="06-profile-page.html" class="bold">Nova demanda</a> Foi adicionado uma demanda que combina com seu perfil
-                                                <a href="#" class="bold">Ver demanda</a>
-                                            </div>
-                                            <div class="publish-date">37 minutos atrás</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="25-notifications.html" class="btn-small-fullwidth btn-dark btn-square">Ver todas notificações</a>
-                            </div>
-                        </div>
-                        <!--  notifications dropdown -->
-                    </div>
+                 
                     <!-- user activity buttons -->
                     <!-- header user profile -->
                     <div class="header-user-profile cryptoki-notif-bttn" data-target="profile-dropdown">
