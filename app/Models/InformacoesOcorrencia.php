@@ -12,18 +12,12 @@ class InformacoesOcorrencia extends Model
     protected $table = 'informacoes_ocorrencia';
 
     protected $fillable = [
-
-        'id',
         'informacoes_id',
         'latitude',
         'longitude',
         'informacoes',
-
+        'user_id',
     ];
 
-    public function informacoes()
-    {
-        return $this->belongsTo(Informacoes::class, 'informacoes_id');
-    }
 
 }

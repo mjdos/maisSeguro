@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('informacoes_ocorrencia', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('informacoes_id')->unsigned();
-            $table->foreign('informacoes_id')
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')
             ->references('id')
-            ->on('informacoes');
+            ->on('users');
             $table->string('latitude');
             $table->string('longitude');
             $table->string('informacoes');
