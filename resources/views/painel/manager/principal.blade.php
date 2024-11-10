@@ -5,6 +5,37 @@
     <div class="section-title-wrapper">
         <div class="section-title"> Gestão registros</div>
     </div>
+    <div class="dashboard-wrapper">
+        <!--   user stats -->
+        <div class="user-stats-section">
+            <div class="stat-item blue-gradient-diagonal">
+                <div class="stat-icon"><svg class="crumina-icon">
+                        <use xlink:href="#face-id-icon"></use>
+                    </svg></div>
+                <div class="stat-info">
+                    <div class="stat-number">436</div>
+                    <div class="stat-description">Incidentes</div>
+                </div>
+            </div>
+            <div class="stat-item fuchsia-gradient-diagonal">
+                <div class="stat-icon"><svg class="crumina-icon">
+                        <use xlink:href="#heart-icon"></use>
+                    </svg></div>
+                <div class="stat-info">
+                    <div class="stat-number">107</div>
+                    <div class="stat-description">Atendimentos</div>
+                </div>
+            </div>
+            <div class="stat-item yellow-gradient-diagonal">
+                <div class="stat-icon"><svg class="crumina-icon">
+                        <use xlink:href="#dollar-icon"></use>
+                    </svg></div>
+                <div class="stat-info">
+                    <div class="stat-number">0.94</div>
+                    <div class="stat-description">Tempo de Resposta</div>
+                </div>
+            </div>
+        </div>
     <div class="user-db-content-area">
 
         <table class="content-table">

@@ -144,11 +144,6 @@
                             </svg>Informações do Perfil
                         </a></li>
                         
-                        <li><a href="!#">
-                            <svg class="crumina-icon">
-                                <use xlink:href="#settings-icon"></use>
-                            </svg>Configurações da Conta
-                        </a></li>
                         
                         <li><a href="{{ route('emergencia') }}">
                             <svg class="crumina-icon">
@@ -156,7 +151,7 @@
                             </svg>Notificações
                         </a></li>
                         
-                        <li><a href="10-profile-dashboard.html">
+                        <li><a href="{{ route('principal') }}">
                             <svg class="crumina-icon">
                                 <use xlink:href="#dashboard-icon"></use>
                             </svg>Resumo do Painel

@@ -37,8 +37,8 @@
                     <!-- header logo -->
                     <div class="logo">
                         <a class="logo-link">
-                            <div class="logo-img"><img src="{{ url('assets/img/logo-pequeno.png') }}" alt="logo"></div>
-                            <div class="logo-text">+Seguro</div>
+                           <a href="{{ route('home') }}"><div class="logo-img"><img src="{{ url('assets/img/mjsp.png') }}" alt="logo"></div></a>
+                           <a href="{{ route('home') }}"><div class="logo-text">+Seguro</div></a>
                         </a>
                     </div>
                     <!-- header logo -->
@@ -81,7 +81,7 @@
         <div class="primary-content-area section-medium content-padding">
             <div class="extra-small-section">
                 <div class="page-title text-center">
-                    <h2><span class="gradient-text">Acessar</span> Contas</h2>
+                    <h2>Acessar Contas</h2>
                 </div>
                 <form action="{{ route('logar') }}" method="POST" class="tk-lp-form user-register-kit-sign tk-lp-tabs-form-content active" >
                     @csrf
@@ -103,19 +103,7 @@
                         </div>
                     </div>
                     <button type="submit" class="submit-bttn tk-lp-button tk-lp-button--dark tk-lp-w-full">Acessar</button>
-                    <button type="button" class="tk-lp-button tk-lp-button--grey tk-lp-w-full tk-lp-tabs-form-item" data-id="sign-up">Criar sua Conta</button>
                 </form>
-                <div class="social-login">
-                    <div class="social-login-text">
-                        Ou acesse com suas redes sociais!
-                    </div>
-                    <div class="social-login-buttons">
-                        <button class="btn btn-normal facebook"><svg class="crumina-icon">
-                                <use xlink:href="#facebook-icon"></use>
-                            </svg></button><button class="btn btn-normal twitter"><svg class="crumina-icon">
-                                <use xlink:href="#twitter-icon"></use>
-                            </svg></button>
-                    </div>
                 </div>
             </div>
         </div>
