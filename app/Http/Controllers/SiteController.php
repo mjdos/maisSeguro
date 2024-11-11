@@ -6,51 +6,79 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Http;
 
 class SiteController extends Controller
 {
 
-    public function index(){
+    public function index()
+    {
         return view('index');
     }
-    
-    public function entregas_user(){
+
+    public function entregas_user()
+    {
         return view('entregas');
     }
-    public function login(){
+    public function login()
+    {
         return view('login');
     }
 
-    public function store(Request $request){
+    public function store(Request $request)
+    {
 
-        Session::flush();
-        
+        // Session::flush();
+
+        // $credentials = [
+        //     'email' => $request->usuario,
+        //     'password' => $request->senha
+        // ];
+
+        // if(Auth::attempt($credentials))
+        // {
+
+        //     $user = Auth::user();
+
+        //     $usuario_logado = [
+        //         'id'            => $user->id,
+        //         'nome'          => $user->name,
+        //         'email'         => $user->email,
+        //     ];
+
+        //     Session::put(['usuario' => $usuario_logado]);
+
+        //     return redirect()->route('home_site.index');
         $credentials = [
-            'email' => $request->usuario,
-            'password' => $request->senha
+            'usuario' => $request->usuario,
+            'senha' => $request->senha
         ];
-            
-        if(Auth::attempt($credentials))
-        {
 
-            $user = Auth::user();
+        // Faz a requisição POST para a API de login
+        $response = Http::post(route('api.login'), $credentials);
 
-            $usuario_logado = [
-                'id'            => $user->id,
-                'nome'          => $user->name,
-                'email'         => $user->email,
-            ];
-            
-            Session::put(['usuario' => $usuario_logado]);
-            
-            return redirect()->route('home_site.index');
+        // Verifica se a resposta é bem-sucedida
+        if ($response->successful()) {
+            $data = $response->json();
+
+            // Armazena o usuário na sessão ou realiza outras operações conforme necessário
+            Session::put(['usuario' => $data['data']]);
+
+            return redirect()->route('home_site.index')->with('success', $data['message']);
         }
 
-        return redirect()->back()->withInput()->withErrors(["Usuário ou Senha Incorretos."]);
+        // Retorna para a página anterior com erro se a autenticação falhar
+        return redirect()->back()->withInput()->withErrors([
+            'error' => $response->json()['message']
+        ]);
+        // }
+
+        // return redirect()->back()->withInput()->withErrors(["Usuário ou Senha Incorretos."]);
 
     }
 
-    public function logout(Request $request){
+    public function logout(Request $request)
+    {
         Auth::guard('web')->logout();
 
         $request->session()->invalidate();
@@ -60,16 +88,34 @@ class SiteController extends Controller
         return redirect('/');
     }
 
-    public function home(){
-        return view('home');
+    public function home()
+    {
+        return view('painel.manager.gestao');
     }
+    public function ranking()
+    {
 
-    public function ranking(){
-        
         return view('ranking');
     }
-    public function categorizar(){
-        
+    public function categorizar()
+    {
+
         return view('categorizar');
+    }
+    public function principal()
+    {
+
+        return view('painel.manager.principal');
+    }
+
+    public function emergencia()
+    {
+
+        return view('painel.manager.emergencia');
+    }
+    public function perfil()
+    {
+
+        return view('painel.manager.perfil');
     }
 }
