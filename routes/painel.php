@@ -3,6 +3,7 @@
 use App\Http\Controllers\
 {   
     LoginController,
+    MapaController,
     PainelController,
     ProductController,
 };
@@ -12,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'store']);
 
+Route::get('/mapa', [MapaController::class, 'mapa'])->name('mapa.index');
 
 ///Rotas Autenticadas
 Route::middleware('auth')->group(function () {
