@@ -35,3 +35,4 @@ Route::post('/panicoStore', [ApiController::class, 'storePanico'])->name('storeP
 Route::get('/getAllOcorrencia', [ApiController::class, 'getAllOcorrencia'])->name('getAllOcorrencia');
 Route::get('/getOcorrencia/{id}', [ApiController::class, 'getOcorrencia'])->name('getOcorrencia');
 Route::post('/storeInformacaoOcorrencia', [ApiController::class, 'storeInformacaoOcorrencia'])->name('storeInformacaoOcorrencia');
+Route::post('/logar', [ApiController::class, 'logar'])->name('api.login');

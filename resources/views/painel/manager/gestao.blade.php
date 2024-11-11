@@ -1,176 +1,100 @@
-@extends('painel.layout.site')
-
-@section('content')
-<div class="container section-padding">
-    <div class="section-title-wrapper">
-        <div class="section-title"> Gestão de Incidentes</div>
+@include('painel.layout.header')
+<div class="container py-5">
+    <div class="mb-5 text-center">
+        <h2 class="fw-bold">Gestão de Incidentes</h2>
     </div>
 
-    <div class="featured-box">
-        <div class="featured-box-wrapper grid-4-columns">
-            <div class="featured-item v5">
-                <div class="featured-item-wrapper">
-                    <div class="featured-item-content">
-                        <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                            <a href="05-product.html">
-                                <img src="img/content/items/featured-item-29.png" alt="">
-                            </a>
-                        </div>
-                    
-                        <div class="featured-item-info" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                                <a href="05-product.html">
-                                    <img src="{{ url('assets/img/carro-de-policia.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
-                                </a>
-                            </div>
-                            <div class="title" style="text-align: center;">
-                                <a href="05-product.html">Label Policia</a>
-                            </div>
-                        </div>
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/carro-de-policia.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
                     </div>
-                    
-                    <div class="featured-item-post-content">
-                        <a href="{{ route('principal') }}" class="btn btn-wide btn-dark">Botão de alguma</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-item v5">
-                <div class="featured-item-wrapper">
-                    <div class="featured-item-content">
-                        <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                            <a href="05-product.html">
-                                <img src="img/content/items/featured-item-29.png" alt="">
-                            </a>
-                        </div>
-                    
-                        <div class="featured-item-info" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                                <a href="05-product.html">
-                                    <img src="{{ url('assets/img/sirene.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
-                                </a>
-                            </div>
-                            <div class="title" style="text-align: center;">
-                                <a href="05-product.html">Label Policia</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item-post-content">
-                        <a href="{{ route('emergencia') }}" class="btn btn-wide btn-dark">Botão de alguma</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-item v5">
-                <div class="featured-item-wrapper">
-                    <div class="featured-item-content">
-                        <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                            <a href="05-product.html">
-                                <img src="img/content/items/featured-item-29.png" alt="">
-                            </a>
-                        </div>
-                    
-                        <div class="featured-item-info" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                                <a href="05-product.html">
-                                    <img src="{{ url('assets/img/lei.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
-                                </a>
-                            </div>
-                            <div class="title" style="text-align: center;">
-                                <a href="05-product.html">Label Policia</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item-post-content">
-                        <button class="btn btn-wide btn-dark">Botão de alguma</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-item v5">
-                <div class="featured-item-wrapper">
-                    <div class="featured-item-content">
-                        <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                            <a href="05-product.html">
-                                <img src="img/content/items/featured-item-29.png" alt="">
-                            </a>
-                        </div>
-                    
-                        <div class="featured-item-info" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                                <a href="05-product.html">
-                                    <img src="{{ url('assets/img/algemas.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
-                                </a>
-                            </div>
-                            <div class="title" style="text-align: center;">
-                                <a href="05-product.html">Label Policia</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item-post-content">
-                        <button class="btn btn-wide btn-dark">Botão de alguma</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-item v5">
-                <div class="featured-item-wrapper">
-                    <div class="featured-item-content">
-                        <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                            <a href="05-product.html">
-                                <img src="img/content/items/featured-item-29.png" alt="">
-                            </a>
-                        </div>
-                    
-                        <div class="featured-item-info" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                                <a href="05-product.html">
-                                    <img src="{{ url('assets/img/justica.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
-                                </a>
-                            </div>
-                            <div class="title" style="text-align: center;">
-                                <a href="05-product.html">Label Policia</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item-post-content">
-                        <button class="btn btn-wide btn-dark">Botão de alguma</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="featured-item v5">
-                <div class="featured-item-wrapper">
-                    <div class="featured-item-content">
-                        <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                            <a href="05-product.html">
-                                <img src="img/content/items/featured-item-29.png" alt="">
-                            </a>
-                        </div>
-                    
-                        <div class="featured-item-info" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <div class="featured-item-image" style="display: flex; justify-content: center; align-items: center;">
-                                <a href="05-product.html">
-                                    <img src="{{ url('assets/img/prender-prisao.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
-                                </a>
-                            </div>
-                            <div class="title" style="text-align: center;">
-                                <a href="05-product.html">Label Policia</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="featured-item-post-content">
-                        <button class="btn btn-wide btn-dark">Botão de alguma</button>
-                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <a href="{{ route('principal') }}" class="btn btn-dark w-100 mt-3">Botão de alguma</a>
                 </div>
             </div>
         </div>
 
+        <!-- Card 2 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/sirene.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
+                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <a href="{{ route('emergencia') }}" class="btn btn-dark w-100 mt-3">Botão de alguma</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/lei.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
+                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <button class="btn btn-dark w-100 mt-3">Botão de alguma</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/algemas.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
+                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <button class="btn btn-dark w-100 mt-3">Botão de alguma</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/justica.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
+                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <button class="btn btn-dark w-100 mt-3">Botão de alguma</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/prender-prisao.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
+                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <button class="btn btn-dark w-100 mt-3">Botão de alguma</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-@endsection
+
+@include('painel.layout.footer')

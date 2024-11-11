@@ -6,7 +6,9 @@ use App\Models\Demandas;
 use App\Models\Panico;
 use App\Models\InformacoesOcorrencia;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Session;
 
 
 
@@ -153,5 +155,45 @@ class ApiController extends Controller
         "message" => "informacao Ocorrencia not found"
       ], 404);
     }
+  }
+
+  public function logar(Request $request)
+  {
+    // Limpa a sessão existente
+    Session::flush();
+
+    // Credenciais recebidas da requisição
+    $credentials = [
+      'email' => $request->usuario,
+      'password' => $request->senha
+    ];
+
+    // Tenta autenticar o usuário
+    if (Auth::attempt($credentials)) {
+      $user = Auth::user();
+
+      // Detalhes do usuário autenticado
+      $usuario_logado = [
+        'id' => $user->id,
+        'nome' => $user->name,
+        'email' => $user->email,
+      ];
+
+      // Armazena na sessão, se necessário
+      Session::put(['usuario' => $usuario_logado]);
+
+      // Retorna resposta JSON com status 200 (sucesso)
+      return response()->json([
+        'success' => true,
+        'message' => 'Usuário autenticado com sucesso.',
+        'data' => $usuario_logado
+      ], 200);
+    }
+
+    // Resposta de erro com status 401 (não autorizado)
+    return response()->json([
+      'success' => false,
+      'message' => 'Usuário ou senha incorretos.',
+    ], 401);
   }
 }
