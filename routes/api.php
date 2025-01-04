@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LocalizacaoController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\{
     ApiController,
@@ -36,3 +37,11 @@ Route::get('/getAllOcorrencia', [ApiController::class, 'getAllOcorrencia'])->nam
 Route::get('/getOcorrencia/{id}', [ApiController::class, 'getOcorrencia'])->name('getOcorrencia');
 Route::post('/storeInformacaoOcorrencia', [ApiController::class, 'storeInformacaoOcorrencia'])->name('storeInformacaoOcorrencia');
 Route::post('/logar', [ApiController::class, 'logar'])->name('api.login');
+
+Route::group(['prefix' => 'localization/v1'], function () {
+
+    Route::post('/compartilharlocalization', [LocalizacaoController::class, 'compartilharLocalizacao'])->name('compartilharLocalizacao');
+    Route::post('/botaopanico', [LocalizacaoController::class, 'botaoPanico'])->name('botaoPanico');
+    Route::post('/gerartoken', [LocalizacaoController::class, 'gerarToken'])->name('gerarToken');
+
+});
