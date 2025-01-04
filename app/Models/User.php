@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'bloqueado',
+        'tipo_id'
     ];
 
     /**
@@ -42,4 +44,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function tipo()
+    {
+        return $this->belongsTo(TipoUsuario::class, 'tipo_id');
+    }
 }

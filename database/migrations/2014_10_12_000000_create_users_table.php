@@ -17,6 +17,11 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('bloqueado');
+            $table->integer('tipo_id')->unsigned();
+            $table->foreign('tipo_id')
+                ->references('id')
+                ->on('tipo_usuario');
             $table->rememberToken();
             $table->timestamps();
         });

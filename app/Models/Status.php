@@ -5,16 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class BotaoPanicoModel extends Model
+class Status extends Model
 {
+    
     use HasFactory;
 
-    protected $table = 'api_botao_panico';
+    protected $table = 'status';
 
     protected $fillable = [
-        'user_id',
-        'longitude',
-        'latitude',
+        'id',
+        'status'
     ];
 
 }

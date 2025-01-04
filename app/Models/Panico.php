@@ -12,12 +12,10 @@ class Panico extends Model
     protected $table = 'panico';
 
     protected $fillable = [
-
-        'id',
         'user_id',
         'latitude',
         'longitude',
-
+        'status',
     ];
 
     public function user()
