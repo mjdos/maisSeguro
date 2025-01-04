@@ -47,13 +47,13 @@ class ApiPanicoController extends Controller
             $item = Panico::create($validated);
 
             return response()->json([
-                'message' => 'Localização enviada com sucesso.',
+                'message' => 'Alerta de pânico enviado com sucesso!',
                 'success' => true,
             ], 200);
 
         } catch (Exception $e) {
             return response()->json([
-                'message' => 'Erro ao tentar enviar a localização',
+                'message' => 'Erro ao tentar enviar alerta de pânico!',
                 'error' => $e->getMessage()
             ], 400);
         }

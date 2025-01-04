@@ -46,13 +46,13 @@ class ApiLocalizacaoController extends Controller
             $item = Localizacao::create($validated);
 
             return response()->json([
-                'message' => 'Localização Compartilhada com sucesso.',
+                'message' => 'Localização compartilhada com sucesso!',
                 'success' => true,
             ], 200);
 
         } catch (Exception $e) {
             return response()->json([
-                'message' => 'Erro ao tentar enviar a localização',
+                'message' => 'Erro ao tentar compartilhada a localização!',
                 'error' => $e->getMessage()
             ], 400);
         }
