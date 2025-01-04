@@ -48,7 +48,7 @@ class SiteController extends Controller
 
         //     Session::put(['usuario' => $usuario_logado]);
 
-        //     return redirect()->route('home_site.index');
+        //     return redirect()->route('home.index');
         $credentials = [
             'usuario' => $request->usuario,
             'senha' => $request->senha
@@ -64,7 +64,7 @@ class SiteController extends Controller
             // Armazena o usuário na sessão ou realiza outras operações conforme necessário
             Session::put(['usuario' => $data['data']]);
 
-            return redirect()->route('home_site.index')->with('success', $data['message']);
+            return redirect()->route('home.index')->with('success', $data['message']);
         }
 
         // Retorna para a página anterior com erro se a autenticação falhar
