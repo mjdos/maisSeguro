@@ -5,7 +5,7 @@
 		<div class="aside-logo py-8" id="kt_aside_logo"  style="background-color: white;">
 			<!--begin::Logo-->
 			<a href="{{ route('home.index') }}" class="d-flex align-items-center">
-				<img alt="Logo" src="{{ url('assets/img/logo-pequeno.png') }}" class="h-100px logo" />
+				<img alt="Logo" src="{{ url('assets/img/MJSP.png') }}" class="h-100px logo" />
 			</a>
 			<!--end::Logo-->
 		</div>
@@ -19,7 +19,7 @@
 				<div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bold" id="#kt_aside_menu" data-kt-menu="true">
 					
 					<div class="menu-item py-0">
-						<a class="menu-link active menu-center" href="{{route('home_site.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link active menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-house fs-2"></i>
 							</span>

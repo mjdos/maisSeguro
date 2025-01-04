@@ -41,8 +41,8 @@
                     <ul class="navigation-menu">
                         <li class="menu-item"><a class="menu-link" href="{{route('home')}}">Home</a></li>
                         <li class="menu-item"><a class="menu-link" href="{{route('ranking')}}">Label</a></li>
-                        <li class="menu-item"><a class="menu-link" href="{{route('ntf.index')}}">Label</a></li>
-                        <li class="menu-item"><a class="menu-link" href="{{route('home_site.index')}}">Label</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Label</a></li>
+                        <li class="menu-item"><a class="menu-link" href="{{route('home.index')}}">Label</a></li>
                     </ul>
                     <!--  navigation menu -->
                 </div>
@@ -138,7 +138,7 @@
                 <!-- Menu de Navegação do Dashboard -->
                 <div class="user-db-menu-ds">
                     <ul class="profile-menu-ds">
-                        <li><a href="{{route('perfil')}}">
+                        <li><a href="#">
                             <svg class="crumina-icon">
                                 <use xlink:href="#user-icon"></use>
                             </svg>Informações do Perfil
@@ -239,7 +239,7 @@
                     <div class="footer-row flex-space-between align-items-center">
                         <div class="logo">
                             <a class="logo-link" href="01-home-ds.html" style="display: flex; align-items: center; text-decoration: none;">
-                                <img src="{{ url('assets/img/seguro-logo.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
+                                <img src="{{ url('assets/img/MJSP.png') }}" alt="logo" style="width: 80px; margin-right: 10px;">
                                 <div class="logo-text" style="font-size: 24px; font-weight: bold; color: #333;">+Seguro</div>
                             </a>
                         </div>
