@@ -19,7 +19,7 @@
 				<div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bold" id="#kt_aside_menu" data-kt-menu="true">
 					
 					<div class="menu-item py-0">
-						<a class="menu-link active menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-house fs-2"></i>
 							</span>
@@ -28,6 +28,51 @@
 					</div>
 
 					<div class="menu-item py-0">
+						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+							<span class="menu-icon me-0">
+								<i class="bi bi-exclamation-triangle"></i>
+							</span>
+							<span class="menu-title">Denúncias</span>
+						</a>
+					</div>
+
+					<div class="menu-item py-0">
+						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+							<span class="menu-icon me-0">
+								<i class="bi bi-geo-alt"></i>
+							</span>
+							<span class="menu-title">Localização</span>
+						</a>
+					</div>
+
+					<div class="menu-item py-0">
+						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+							<span class="menu-icon me-0">
+								<i class="bi bi-exclamation-diamond"></i>	
+							</span>
+							<span class="menu-title">Pânico</span>
+						</a>
+					</div>
+
+					<div class="menu-item py-0">
+						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+							<span class="menu-icon me-0">
+								<i class="bi bi-bell"></i>
+							</span>
+							<span class="menu-title">Alertas</span>
+						</a>
+					</div>
+
+					<div class="menu-item py-0">
+						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+							<span class="menu-icon me-0">
+								<i class="bi bi-map"></i>
+							</span>
+							<span class="menu-title">Mapas</span>
+						</a>
+					</div>
+
+						<div class="menu-item py-0">
 						<a class="menu-link menu-center" href="{{ route('logout') }}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-reply-fill fs-2"></i>

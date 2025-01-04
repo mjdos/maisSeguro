@@ -35,6 +35,22 @@
             </div>
         </div>
 
+        
+        <!-- Card 2 -->
+        <div class="col-md-4 col-lg-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <a href="05-product.html">
+                            <img src="{{ url('assets/img/emergencia.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                        </a>
+                    </div>
+                    <h5 class="card-title">Label Policia</h5>
+                    <a href="{{ route('emergencia') }}" class="btn btn-dark w-100 mt-3">Botão de alguma</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Card 3 -->
         <div class="col-md-4 col-lg-3">
             <div class="card shadow-sm h-100">
@@ -49,6 +65,22 @@
                 </div>
             </div>
         </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <a href="05-product.html">
+                                    <img src="{{ url('assets/img/mapa.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
+                                </a>
+                            </div>
+                            <h5 class="card-title">Label Policia</h5>
+                            <button class="btn btn-dark w-100 mt-3">Botão de alguma</button>
+                        </div>
+                    </div>
+                </div>
+        
 
         <!-- Card 4 -->
         <div class="col-md-4 col-lg-3">
