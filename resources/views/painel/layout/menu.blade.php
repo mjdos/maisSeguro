@@ -37,7 +37,7 @@
 					</div>
 
 					<div class="menu-item py-0">
-						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('mapa')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-geo-alt"></i>
 							</span>
@@ -46,7 +46,7 @@
 					</div>
 
 					<div class="menu-item py-0">
-						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('emergencia')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-exclamation-diamond"></i>	
 							</span>
@@ -55,7 +55,7 @@
 					</div>
 
 					<div class="menu-item py-0">
-						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('alerta')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-bell"></i>
 							</span>
@@ -64,7 +64,7 @@
 					</div>
 
 					<div class="menu-item py-0">
-						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('mapa')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-map"></i>
 							</span>

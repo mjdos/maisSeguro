@@ -14,8 +14,8 @@
                             <img src="{{ url('assets/img/carro-de-policia.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
                         </a>
                     </div>
-                    <h5 class="card-title">Label Policia</h5>
-                    <a href="{{ route('principal') }}" class="btn btn-dark w-100 mt-3">Botão de alguma</a>
+                    <h5 class="card-title">Denúncias</h5>
+                    <a href="{{ route('principal') }}" class="btn btn-dark w-100 mt-3">Acessar</a>
                 </div>
             </div>
         </div>
@@ -29,8 +29,8 @@
                             <img src="{{ url('assets/img/sirene.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
                         </a>
                     </div>
-                    <h5 class="card-title">Label Policia</h5>
-                    <a href="{{ route('emergencia') }}" class="btn btn-dark w-100 mt-3">Botão de alguma</a>
+                    <h5 class="card-title">Pânico</h5>
+                    <a href="{{ route('emergencia') }}" class="btn btn-dark w-100 mt-3">Acessar</a>
                 </div>
             </div>
         </div>
@@ -45,8 +45,8 @@
                             <img src="{{ url('assets/img/emergencia.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
                         </a>
                     </div>
-                    <h5 class="card-title">Label Policia</h5>
-                    <a href="{{ route('emergencia') }}" class="btn btn-dark w-100 mt-3">Botão de alguma</a>
+                    <h5 class="card-title">Alertas</h5>
+                    <a href="{{ route('alerta') }}" class="btn btn-dark w-100 mt-3">Acessar</a>
                 </div>
             </div>
         </div>
@@ -75,8 +75,8 @@
                                     <img src="{{ url('assets/img/mapa.png') }}" alt="logo" class="img-fluid" style="width: 80px;">
                                 </a>
                             </div>
-                            <h5 class="card-title">Label Policia</h5>
-                            <button class="btn btn-dark w-100 mt-3">Botão de alguma</button>
+                            <h5 class="card-title">Localização</h5>
+                            <a href="{{ route('mapa') }}" class="btn btn-dark w-100 mt-3">Acessar</a>
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
                 <!--begin::Title-->
-                <h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0">Pânicos</h1>
+                <h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0">Alertas</h1>
             </div>
         </div>
         <!--end::Toolbar container-->
@@ -28,9 +28,9 @@
                         <thead>
                             <!--begin::Table row-->
                             <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
-                                <th class="min-w-200px">Pânicos</th>
+                                <th class="min-w-200px">Alerta</th>
                                 <th class="text-center min-w-100px">Data</th>
-                                <th class="text-center min-w-100px">Localização</th>
+                                <th class="text-center min-w-100px">Descrição</th>
                                 <th class="text-center min-w-70px">Ações</th>
                             </tr>
                             <!--end::Table row-->
@@ -54,6 +54,66 @@
                                 <!--begin::SKU=-->
                                 <td class="text-center">
                                     <span class="fw-bold text-dark">01/04/2025</span>
+                                </td>
+                                <!--end::SKU=-->
+                                <!--begin::Qty=-->
+                                <td class="text-center" data-order="48">
+                                    <span class="fw-bold text-dark">Quadra 99 Conjunto Z Local inventado</span>
+                                </td>
+                                <!--end::Qty=-->
+
+                                <!--begin::Action=-->
+                                <td class="text-center">
+                                    <a href="#" class="btn btn-sm btn-light" data-kt-menu-placement="bottom-end">Visualizar</a>
+                                </td>
+                                <!--end::Action=-->
+                            </tr>
+
+                            <tr>
+                                <!--begin::Category=-->
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-5">
+                                            <!--begin::Title-->
+                                            <span class="fw-bold text-dark" data-kt-ecommerce-product-filter="product_name">Alerta de Pânico</span>
+                                            <!--end::Title-->
+                                        </div>
+                                    </div>
+                                </td>
+                                <!--end::Category=-->
+                                <!--begin::SKU=-->
+                                <td class="text-center">
+                                    <span class="fw-bold text-dark">10/01/2025</span>
+                                </td>
+                                <!--end::SKU=-->
+                                <!--begin::Qty=-->
+                                <td class="text-center" data-order="48">
+                                    <span class="fw-bold text-dark">Situação de emergência.</span>
+                                </td>
+                                <!--end::Qty=-->
+
+                                <!--begin::Action=-->
+                                <td class="text-center">
+                                    <a href="#" class="btn btn-sm btn-light" data-kt-menu-placement="bottom-end">Visualizar</a>
+                                </td>
+                                <!--end::Action=-->
+                            </tr>
+
+                            <tr>
+                                <!--begin::Category=-->
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-5">
+                                            <!--begin::Title-->
+                                            <span class="fw-bold text-dark" data-kt-ecommerce-product-filter="product_name">Alerta de Pânico</span>
+                                            <!--end::Title-->
+                                        </div>
+                                    </div>
+                                </td>
+                                <!--end::Category=-->
+                                <!--begin::SKU=-->
+                                <td class="text-center">
+                                    <span class="fw-bold text-dark">12/12/2024</span>
                                 </td>
                                 <!--end::SKU=-->
                                 <!--begin::Qty=-->

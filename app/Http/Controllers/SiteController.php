@@ -118,4 +118,16 @@ class SiteController extends Controller
 
         return view('painel.manager.perfil');
     }
+
+    
+    public function alerta()
+    {
+        return view('painel.manager.alerta');
+    }
+    public function mapa()
+    {
+        return view('painel.mapas.index');
+    }
+
+    
 }

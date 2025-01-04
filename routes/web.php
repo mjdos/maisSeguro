@@ -32,5 +32,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/categorizar', [SiteController::class, 'categorizar'])->name('categorizar');
     Route::get('/principal', [SiteController::class, 'principal'])->name('principal');
     Route::get('/emergencia', [SiteController::class, 'emergencia'])->name('emergencia');
-
+    Route::get('/alerta', [SiteController::class, 'alerta'])->name('alerta');
+    Route::get('/mapa', [SiteController::class, 'mapa'])->name('mapa');
 });
