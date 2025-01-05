@@ -35,15 +35,31 @@ class ApiLocalizacaoController extends Controller
                     'success' => false
                 ], Response::HTTP_UNAUTHORIZED);
             }
-
+        
             $validated = $request->validate([
                 'user_id' => 'required|integer',
-                'latitude' => 'required|string|max:255',
-                'longitude' => 'required|string|max:255',
+                'gps' => 'required|string|max:255',
                 'status' => 'required|integer',
             ]);
 
-            $item = Localizacao::create($validated);
+            $pattern = '/lat:\s*(-?\d+(\.\d+)?),\s*lng:\s*(-?\d+(\.\d+)?)/';
+
+            if (preg_match($pattern, $validated['gps'], $matches)) {
+                $latitude = $matches[1];
+                $longitude = $matches[3];
+            }else{
+                $latitude = '';
+                $longitude = '';
+            }
+
+            $dados = [
+                'user_id' => $validated['user_id'],
+                'latitude' => $latitude,
+                'longitude' => $longitude,
+                'status' => $validated['user_id'],
+            ];
+
+            Localizacao::create($dados);
 
             return response()->json([
                 'message' => 'Localização compartilhada com sucesso!',
