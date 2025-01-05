@@ -110,7 +110,6 @@ class ApiLoginController extends Controller
         
         return response()->json([
                 'message' => 'Usuário ou senha incorretos.',
-                'bloqueio' => false,
                 'success' => false
                 ], Response::HTTP_UNAUTHORIZED);
 
