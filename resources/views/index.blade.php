@@ -70,7 +70,7 @@
     </style>
 </head>
 
-@include('painel.layout.header-site')
+@include('painel.layout.header')
 <div align="center">
     <br>
 <img src="{{ url('assets/img/MJSP.png') }}" height="190">
