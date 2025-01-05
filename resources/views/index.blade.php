@@ -112,4 +112,4 @@
 
 
 <!-- main content area -->
-@include('painel.layout.footer-site')
+@include('painel.layout.footer')
