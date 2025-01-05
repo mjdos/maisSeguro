@@ -72,7 +72,7 @@ class ApiLoginController extends Controller
             $usuario_logado = [
                 'id'            => $user->id,
                 'nome'          => $user->nome,
-                'bloqueado'     => $user->bloqueado,
+                'email'         => $user->email,
                 'tipo_id'       => $user->tipo_id, 
             ];
 
