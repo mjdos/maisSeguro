@@ -62,6 +62,8 @@ class ApiLocalizacaoController extends Controller
             Localizacao::create($dados);
 
             return response()->json([
+                'latitude' => $latitude,
+                'longitude' => $longitude,
                 'message' => 'Localização compartilhada com sucesso!',
                 'success' => true,
             ], 200);

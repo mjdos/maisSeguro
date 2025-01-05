@@ -63,6 +63,8 @@ class ApiPanicoController extends Controller
             Panico::create($dados);
 
             return response()->json([
+                'latitude' => $latitude,
+                'longitude' => $longitude,
                 'message' => 'Alerta de pânico enviado com sucesso!',
                 'success' => true,
             ], 200);
