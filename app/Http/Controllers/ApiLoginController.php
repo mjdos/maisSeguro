@@ -71,7 +71,7 @@ class ApiLoginController extends Controller
             $user = Auth::user();
             $usuario_logado = [
                 'id'            => $user->id,
-                'nome'          => $user->nome,
+                'nome'          => $user->name,
                 'email'         => $user->email,
                 'tipo_id'       => $user->tipo_id, 
             ];
