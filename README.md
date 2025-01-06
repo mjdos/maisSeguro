@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6069bf87-5e42-47c2-90f1-29a62c074f97)<p align="center"><img src="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/img/home.png" width="800" alt="CodeCreators"></p>
+![image](https://github.com/user-attachments/assets/6069bf87-5e42-47c2-90f1-29a62c074f97)<p align="center"><img src="https://github.com/mjdos/maisSeguro/blob/main/public/assets/img/home.png" width="800" alt="CodeCreators"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
