@@ -8,9 +8,7 @@
 
 ## 📚 Introdução ao Projeto "Mais Seguro"
 
-Este repositório apresenta o **Mais Seguro**, um projeto desenvolvido durante o Hackathon do Ministério da Justiça e Segurança Pública para atender ao **Desafio 01: Plataforma de Colaboração entre Cidadãos e Polícia**. 
-<br><br>
-No Hackathon do Ministério da Justiça e Segurança Pública, apresentamos o projeto "Mais Seguro", uma solução inovadora para atender ao Desafio 01: Plataforma de Colaboração entre Cidadãos e Polícia.
+No Hackathon do Ministério da Justiça e Segurança Pública, apresentamos o projeto "Mais Seguro", uma solução inovadora para atender ao Desafio 01: **Desafio 01: Plataforma de Colaboração entre Cidadãos e Polícia**. 
 
 O **Mais Seguro** é uma solução tecnológica composta por:
 - **Aplicativo móvel**: Destinado ao uso da população para facilitar a comunicação e colaboração com a polícia.
