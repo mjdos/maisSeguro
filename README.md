@@ -36,17 +36,12 @@ Estamos confiantes de que o "Mais Seguro" é um marco para a segurança pública
 > Equipe "Code Creators"
 <br>
 
-## 🎯 Desafio
-
-Conforme 
-<br><br>
-
 ## 🌐 Link do MVP
 https://mjsp.codecreators.com.br/login
 <br><br>
 
 ## 🌐 Link da Apresentação
-<p align="left"><a href="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/imagens/github/apresentacao-code-creators.pptx">Download da Apresentação em PowerPoint</a](https://www.youtube.com/watch?v=fGzYUPVvNkI)></p>
+<p align="left"><a href="https://github.com/mjdos/maisSeguro/blob/main/public/assets/pdf/hackthon_mjsp.pdf">Download da Apresentação em PDF</a></p>
 <br><br>
 
 ## 🎞 Vídeos do MVP 
@@ -55,9 +50,9 @@ Preparamos uma série de vídeos para demonstrar a solução funcionando com nos
 
 | Descrição | Vídeo |
 | ------ | ------ |
-| Pitch CodeCreators | [video](https://www.youtube.com/watch?v=fGzYUPVvNkI) |
+| Pitch CodeCreators | [video](https://www.youtube.com/watch?v=8b9i_JKpeaM) |
 
-<br>
+<br><br>
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -68,12 +63,12 @@ Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
     <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,html,jquery,mysql,flutter" />
   </a>
 </p>
-<br>
+<br><br>
 
 ## ⚙️ Download do Aplicativo (APK)
-<p align="left"><a href="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/imagens/github/apresentacao-code-creators.pptx">Download do APK</a></p>
+<p align="left"><a href="https://github.com/mjdos/maisSeguro/blob/main/public/assets/apk/MaisSeguro-release-05-01-2025.apk">Download do APK</a></p>
 
-
+<br><br>
 ## 📝 Licença
 
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a><br>
