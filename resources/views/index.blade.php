@@ -3,27 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>@yield('title', '+Seguro')</title>
+    <title>@yield('title', 'Mais Seguro')</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta property="og:title" content="">
-    <meta property="og:type" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 
-    
-    <link rel="stylesheet" href="{{ url('assets/css/normalize.css')}}">
-    <link rel="stylesheet" href="{{ url('assets/css/main.css')}}">
-    <link rel="stylesheet" href="{{ url('assets/css/fonts.css')}}">
-    <link rel="stylesheet" href="{{ url('assets/css/swiper-bundle.css')}}">
-    <link rel="stylesheet" href="{{ url('assets/css/nice-select2.css')}}">
-    <link rel="stylesheet" href="{{ url('assets/css/login-register.css')}}">
 
     <meta name="theme-color" content="#fafafa">
        <style>
@@ -31,9 +19,11 @@
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
             color: #333;
+            max-height: 100%;
         }
         .container {
             max-width: 900px;
+            max-height: 100%;
             margin: 20px auto;
             padding: 20px;
             text-align: center;
@@ -70,46 +60,20 @@
     </style>
 </head>
 
-@include('painel.layout.header')
 <div align="center">
     <br>
-<img src="{{ url('assets/img/MJSP.png') }}" height="190">
+    <img src="{{ url('assets/img/logo.png') }}" height="180">
+    <h1>Mais Seguro</h1>
+    <font size="3"><a href="{{ route('login') }}">Login</a></font>
 </div>
 <br>
 
 <div class="container">
-    <!-- Hero Section -->
+
     <div class="features">
-        <div class="feature">
-            <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
-            <div class="feature-title">Proteção de Identidade</div>
-            <p>Mantenha sua identidade segura ao enviar informações confidenciais para a polícia.</p>
-        </div>
-        <div class="feature">
-            <div class="feature-icon"><i class="fas fa-camera"></i></div>
-            <div class="feature-title">Envio de Mídias</div>
-            <p>Envie fotos e vídeos diretamente para ajudar nas investigações, sem complicações.</p>
-        </div>
-        <div class="feature">
-            <div class="feature-icon"><i class="fas fa-sync"></i></div>
-            <div class="feature-title">Atualizações em Tempo Real</div>
-            <p>Receba feedback sobre o status da investigação e atualizações em tempo real.</p>
-        </div>
-        <div class="feature">
-            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-            <div class="feature-title">Segurança e Confiabilidade</div>
-            <p>Plataforma confiável com criptografia de ponta-a-ponta para proteger seus dados.</p>
+        <div class="feature" style="width:900px">
+            <img src="{{ url('assets/img/home.png') }}"><br>
         </div>
     </div>
 
-  
-  
 </div>
-<br>
-<div align="center">
-<img src="{{ url('assets/img/org_realizacao.png') }}">
-</div>
-
-
-<!-- main content area -->
-@include('painel.layout.footer')

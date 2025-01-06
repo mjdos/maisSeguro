@@ -11,7 +11,7 @@
     <meta NAME="robots" CONTENT="index, nofollow, noarchive">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>Painel de Controle - +Seguro</title>
+    <title>Sistema - Mais Seguro</title>
     <link href="{{ url ('painel/dist/css/style.min.css') }}" rel="stylesheet">
 
 </head>
@@ -40,7 +40,11 @@
             <div class="auth-box">
                 <div id="loginform">
                     <div class="logo">
-                        <span><img src="{{ url('assets/img/MJSP.png') }}" width="200px" /></span>
+          
+                        <br>
+                        <img src="{{ url('assets/img/logo.png') }}" height="180">
+                        <h1>Mais Seguro</h1>
+
                         @if($errors->all())
                             @foreach ($errors->all() as $error)
                                 <div class="alert alert-danger" role="alert">

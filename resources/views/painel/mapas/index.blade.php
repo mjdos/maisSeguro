@@ -1,4 +1,7 @@
 @include('painel.layout.header')
+
+	<h1>&nbsp;&nbsp;&nbsp;Mapa de Informações </h1>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <style>
         /* Define a altura do mapa */

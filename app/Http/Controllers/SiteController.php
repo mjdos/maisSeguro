@@ -128,6 +128,10 @@ class SiteController extends Controller
     {
         return view('painel.mapas.index');
     }
-
     
+    public function localizacao()
+    {
+
+        return view('painel.manager.localizacao');
+    }
 }

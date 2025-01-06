@@ -5,7 +5,7 @@
 		<div class="aside-logo py-8" id="kt_aside_logo"  style="background-color: white;">
 			<!--begin::Logo-->
 			<a href="{{ route('home.index') }}" class="d-flex align-items-center">
-				<img alt="Logo" src="{{ url('assets/img/MJSP.png') }}" class="h-100px logo" />
+				<img alt="Logo" src="{{ url('assets/img/logo.png') }}" class="h-100px logo" />
 			</a>
 			<!--end::Logo-->
 		</div>
@@ -28,11 +28,11 @@
 					</div>
 
 					<div class="menu-item py-0">
-						<a class="menu-link  menu-center" href="{{route('home.index')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('principal')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
 								<i class="bi bi-exclamation-triangle"></i>
 							</span>
-							<span class="menu-title">Denúncias</span>
+							<span class="menu-title">Informações</span>
 						</a>
 					</div>
 
@@ -41,7 +41,7 @@
 							<span class="menu-icon me-0">
 								<i class="bi bi-geo-alt"></i>
 							</span>
-							<span class="menu-title">Localização</span>
+							<span class="menu-title">Mapa</span>
 						</a>
 					</div>
 
@@ -64,11 +64,11 @@
 					</div>
 
 					<div class="menu-item py-0">
-						<a class="menu-link  menu-center" href="{{route('mapa')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+						<a class="menu-link  menu-center" href="{{route('localizacao')}}" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 							<span class="menu-icon me-0">
-								<i class="bi bi-map"></i>
+								<i class="bi bi-geo"></i>
 							</span>
-							<span class="menu-title">Mapas</span>
+							<span class="menu-title">Localização</span>
 						</a>
 					</div>
 

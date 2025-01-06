@@ -8,7 +8,7 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
                 <!--begin::Title-->
-                <h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0">Informações</h1>
+                <h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0">Localizações Compartilhadas</h1>
             </div>
         </div>
         <!--end::Toolbar container-->
@@ -28,56 +28,47 @@
                         <thead>
                             <!--begin::Table row-->
                             <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
-                                <th class="w-10px pe-2">
-                                </th>
-                                <th class="min-w-200px">Informação</th>
-                                <th class="text-end min-w-100px">Latitude</th>
-                                <th class="text-end min-w-70px">Longitude</th>
-                                <th class="text-end min-w-100px">Cidade</th>
-                                <th class="text-end min-w-70px"></th>
+                                <th class="min-w-200px">Tipo</th>
+                                <th class="text-center min-w-100px">Data</th>
+                                <th class="text-center min-w-100px">Localização</th>
+                                <th class="text-center min-w-70px">Ações</th>
                             </tr>
                             <!--end::Table row-->
                         </thead>
                         <!--end::Table head-->
                         <!--begin::Table body-->
                         <tbody class="fw-semibold text-gray-600">
-                            <!--begin::Table row-->
+         
                             <tr>
-                                <!--begin::Checkbox-->
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1" />
-                                    </div>
-                                </td>
-                             
+                                <!--begin::Category=-->
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <!--begin::Thumbnail-->
-                                        <a href="#" class="symbol symbol-50px">
-                                            <img    src="{{ url('assets/img/assalto.png') }}"alt="Imagem do crime">                                        </a>
-                                        <!--end::Thumbnail-->
                                         <div class="ms-5">
                                             <!--begin::Title-->
-                                            <a href="#" class="text-gray-800 text-hover-primary fs-5 fw-bold" data-kt-ecommerce-product-filter="product_name">Roubo a mão armada no centro</a>
+                                            <span class="fw-bold text-dark" data-kt-ecommerce-product-filter="product_name">Compartilhamento de Localização</span>
                                             <!--end::Title-->
                                         </div>
                                     </div>
                                 </td>
-                                <td class="text-end pe-0">
-                                    <span class="fw-bold">-15.7801</span>
+                                <!--end::Category=-->
+                                <!--begin::SKU=-->
+                                <td class="text-center">
+                                    <span class="fw-bold text-dark">01/01/2025</span>
                                 </td>
-                                <td class="text-end pe-0" data-order="48">
-                                    <span class="fw-bold ms-3">-47.9292</span>
+                                <!--end::SKU=-->
+                                <!--begin::Qty=-->
+                                <td class="text-center" data-order="48">
+                                    <span class="fw-bold text-dark">Quadra 99 Conjunto Z Local inventado</span>
                                 </td>
-                                <td class="text-end pe-0">
-                                    <span class="fw-bold text-dark">Brasília</span>
-                                </td>
+                                <!--end::Qty=-->
+
+                                <!--begin::Action=-->
                                 <td class="text-center">
                                     <a href="#" class="btn btn-sm btn-light" data-kt-menu-placement="bottom-end">Visualizar</a>
                                 </td>
-
+                                <!--end::Action=-->
                             </tr>
-
+                            <!--begin::Table row-->
                         </tbody>
                         <!--end::Table body-->
                     </table>
