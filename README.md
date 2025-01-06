@@ -65,6 +65,8 @@ Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
 
 ## ⚙️ Download do Aplicativo (APK)
 <p align="left"><a href="https://github.com/mjdos/maisSeguro/blob/main/public/assets/apk/MaisSeguro-release-05-01-2025.apk">Download do APK</a></p>
+E-mail de acesso: admin@admin.com<br>
+Senha: 1234<br>
 
 <br><br>
 ## 📝 Licença
