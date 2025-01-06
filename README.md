@@ -20,7 +20,7 @@ O aplicativo móvel oferece uma interface intuitiva e fácil de usar, com os seg
 <br><br>
 - **Envio de Informações**: Relate situações suspeitas ou ocorrências diretamente para as autoridades, incluindo fotos, vídeos e descrições detalhadas.
 - **Botão de Pânico**: Acione a polícia rapidamente em situações de emergência.
-- **Compartilhar Localização**: Envie sua localização em tempo real para permitir uma resposta rápida e precisa.
+- **Compartilhar Localização**: Envie sua localização em tempo real para acompanhamento pela Polícia.
 - **Alertas da Polícia**: Receba notificações diretas sobre situações de risco ou segurança em sua região.
 - **Contatos Emergenciais**: Acesse rapidamente números de emergência, como polícia, bombeiros e ambulância.
 <br><br>
