@@ -8,9 +8,7 @@
 
 ## 📚 Introdução ao Projeto "Mais Seguro"
 
-Este repositório apresenta o **Mais Seguro**, um projeto desenvolvido durante o Hackathon do Ministério da Justiça e Segurança Pública para atender ao **Desafio 01: Plataforma de Colaboração entre Cidadãos e Polícia**. 
-<br><br>
-No Hackathon do Ministério da Justiça e Segurança Pública, apresentamos o projeto "Mais Seguro", uma solução inovadora para atender ao Desafio 01: Plataforma de Colaboração entre Cidadãos e Polícia.
+No Hackathon do Ministério da Justiça e Segurança Pública, apresentamos o projeto "Mais Seguro", uma solução inovadora para atender ao Desafio 01: **Desafio 01: Plataforma de Colaboração entre Cidadãos e Polícia**. 
 
 O **Mais Seguro** é uma solução tecnológica composta por:
 - **Aplicativo móvel**: Destinado ao uso da população para facilitar a comunicação e colaboração com a polícia.
@@ -22,7 +20,7 @@ O aplicativo móvel oferece uma interface intuitiva e fácil de usar, com os seg
 <br><br>
 - **Envio de Informações**: Relate situações suspeitas ou ocorrências diretamente para as autoridades, incluindo fotos, vídeos e descrições detalhadas.
 - **Botão de Pânico**: Acione a polícia rapidamente em situações de emergência.
-- **Compartilhar Localização**: Envie sua localização em tempo real para permitir uma resposta rápida e precisa.
+- **Compartilhar Localização**: Envie sua localização em tempo real para acompanhamento pela Polícia.
 - **Alertas da Polícia**: Receba notificações diretas sobre situações de risco ou segurança em sua região.
 - **Contatos Emergenciais**: Acesse rapidamente números de emergência, como polícia, bombeiros e ambulância.
 <br><br>
@@ -36,17 +34,12 @@ Estamos confiantes de que o "Mais Seguro" é um marco para a segurança pública
 > Equipe "Code Creators"
 <br>
 
-## 🎯 Desafio
-
-Conforme 
-<br><br>
-
 ## 🌐 Link do MVP
 https://mjsp.codecreators.com.br/login
 <br><br>
 
 ## 🌐 Link da Apresentação
-<p align="left"><a href="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/imagens/github/apresentacao-code-creators.pptx">Download da Apresentação em PowerPoint</a](https://www.youtube.com/watch?v=fGzYUPVvNkI)></p>
+<p align="left"><a href="https://github.com/mjdos/maisSeguro/blob/main/public/assets/pdf/hackthon_mjsp.pdf">Download da Apresentação em PDF</a></p>
 <br><br>
 
 ## 🎞 Vídeos do MVP 
@@ -55,9 +48,9 @@ Preparamos uma série de vídeos para demonstrar a solução funcionando com nos
 
 | Descrição | Vídeo |
 | ------ | ------ |
-| Pitch CodeCreators | [video](https://www.youtube.com/watch?v=fGzYUPVvNkI) |
+| Pitch CodeCreators | [video](https://www.youtube.com/watch?v=8b9i_JKpeaM) |
 
-<br>
+<br><br>
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -68,12 +61,14 @@ Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
     <img src="https://skillicons.dev/icons?i=git,github,php,laravel,vscode,linux,nodejs,js,html,jquery,mysql,flutter" />
   </a>
 </p>
-<br>
+<br><br>
 
 ## ⚙️ Download do Aplicativo (APK)
-<p align="left"><a href="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/imagens/github/apresentacao-code-creators.pptx">Download do APK</a></p>
+<p align="left"><a href="https://github.com/mjdos/maisSeguro/blob/main/public/assets/apk/MaisSeguro-release-05-01-2025.apk">Download do APK</a></p>
+E-mail de acesso: admin@admin.com<br>
+Senha: 1234<br>
 
-
+<br><br>
 ## 📝 Licença
 
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a><br>
