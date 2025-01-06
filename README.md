@@ -70,11 +70,8 @@ Abaixo as ferramentas e tecnologias que foram utilizadas no nosso projeto.
 </p>
 <br>
 
-## ⚙️ C
-
-
-## 🏆 
-
+## ⚙️ Download do Aplicativo (APK)
+<p align="left"><a href="https://github.com/mjdos/tesouro_direto/blob/main/public/assets/imagens/github/apresentacao-code-creators.pptx">Download do APK</a></p>
 
 
 ## 📝 Licença
